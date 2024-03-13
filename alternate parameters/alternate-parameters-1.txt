@@ -1,0 +1,31 @@
+final int NUM_IMAGES = 25;  //Number of images to create
+
+final int BG_COLOUR = 200;  //Minimim R/G/B value for background color
+
+//Min/Max numbers of amoebas to draw
+final int NUM_AMOEBA_MIN = 5000;
+final int NUM_AMOEBA_MAX = 10000;
+
+//Min/Max size of amoebas to draw
+final int SIZE_AMOEBA_MIN = 20;
+final int SIZE_AMOEBA_MAX = 100;
+
+//Mean and Std. Dev. to use for Normal Distribution of Sizes of Amoebas
+final int GAUSSIAN_MEAN = (SIZE_AMOEBA_MAX - SIZE_AMOEBA_MIN) / 2;
+final int GAUSSIAN_SD = GAUSSIAN_MEAN / 2;
+
+//Min/Max opacity of amoebas [opacity% * 255]
+final int OPACITY_AMOEBA_MIN = (int) (0.15*255);
+final int OPACITY_AMOEBA_MAX = (int) (0.8*255);
+
+//Min/Max values for noise scale
+final float NOISE_SCALE_MIN = 0.2;
+final float NOISE_SCALE_MAX = 4;
+
+//Min/Max values for noise scale multiplier
+final int NOISE_SCALE_MULT_MIN = 4;
+final int NOISE_SCALE_MULT_MAX = 150;
+
+//Min/Max angle interval (radians) between points on shape
+final float ANGLE_INTERVAL_MIN = 0.01;
+final float ANGLE_INTERVAL_MAX = 0.5;
